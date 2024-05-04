@@ -2,8 +2,8 @@ html {
     scroll-behavior: smooth; 
 }
 body{
-    background-color: #06345c;
     margin: 0;
+    background-color: #06345c;
 }
 section{
     min-height: 90vh;
@@ -39,26 +39,14 @@ h3{
     margin: 0;
     font-size: 30px;
 }
-.zagolovokforme{
+.textcenter{
     text-align: center;
-    display: flex;
-}
-.About me{
-    margin: 0;
-    font-size: 200px; 
-    left:30%;
-}
-p{
-    margin: 0;
-    font-size: 80px; 
-    display: flex;
-    width: 30%;
 }
 
 .Alihan{
     position: relative;
     height: 75vh;
-    width: 50%;
+    width: 40%;
 }
 input{
     display: block;
@@ -74,23 +62,79 @@ input{
     display: flex;
     justify-content: center;
 }
-#aboutme{
-    padding: 50px;
+
+
+/*Всё про aboutme*/
+.aboutme{
     color:#c3c4c3;
     background-color: #06345c;
-    position: relative;
-    z-index: 3;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 .komp{
-    position: relative;
+    position: absolute;
     border-radius: 100%;
-    right: 20%;
     height: 1000px;
     width: 1000px;
+    right: 50%;
+    bottom: -1050;
+}
+.About{
+    position: absolute;
+    right: 40%;
+    color:#c3c4c3;
+    z-index: 2;
+    left: 1400px;
+}
+.me{
+    position: absolute;
+    color:#c3c4c3;
+    right: 40%;
+    z-index: 2;
+    left: 1400px;
+    bottom: -200;
+}
+.Text_about_me{
+    position: absolute;
+    color: #c3c4c3;
+    right: 900px;
+    font-size: 50px;
+    width: 700px;
+    top: 1600px;
 }
 
+
+/* Всё про My Skills*/
+
+#myskills{
+    background-color:#c3c4c3;
+    color:#06345c;
+    justify-content: space-around;
+    width: 100%;
+}
+.skills_box{
+    display: flex;
+    justify-content: space-around;
+}
+._skills{
+    font-size: 50px;
+    width: 15%;
+}
+._skills_level{
+    width: 15%;
+}
+._skills2{
+    font-size: 50px;
+    width: 15%;
+}
+._skills_level2{
+    width: 13%;
+}
+.skill_level2{
+    font-size: 50px;
+}
+.skill_level{
+    font-size: 50px;
+}
 
 /* Все про меню */
 .link{
@@ -141,7 +185,7 @@ img{
 }
 
 /*Все про блог*/
-#myskills{
+#myblog{
     padding: 150px 0;
 }
 .card{
@@ -174,3 +218,4 @@ img{
 @media only screen and (max-width: 600px) {
 
 }
+
