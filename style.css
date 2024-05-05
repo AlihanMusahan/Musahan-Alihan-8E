@@ -73,61 +73,66 @@ input{
 .komp{
     position: absolute;
     border-radius: 100%;
-    height: 1000px;
-    width: 1000px;
-    right: 50%;
-    bottom: -1050;
+    height: 80vh;
+    width: 80vh;
+    left: 5%;
+    bottom: -90%;
 }
 .About{
     position: absolute;
     right: 40%;
-    color:#c3c4c3;
+    color: #c3c4c3;
     z-index: 2;
-    left: 1400px;
+    left: 35%;
+    bottom: -21%;
 }
 .me{
     position: absolute;
-    color:#c3c4c3;
+    color: #c3c4c3;
     right: 40%;
     z-index: 2;
-    left: 1400px;
-    bottom: -200;
+    left: 35%;
+    bottom: -30%;
 }
 .Text_about_me{
     position: absolute;
     color: #c3c4c3;
-    right: 900px;
-    font-size: 50px;
-    width: 700px;
-    top: 1600px;
+    right: 5%;
+    font-size: 4vh;
+    width: 60vh;
+    bottom: -70%;
 }
 
 
 /* Всё про My Skills*/
 
 #myskills{
-    background-color:#c3c4c3;
-    color:#06345c;
+    background-color:#06345c;
+    color:#c3c4c3;
     justify-content: space-around;
+    justify-content: center;
     width: 100%;
+}
+.My_skills{
+    z-index: 2;
 }
 .skills_box{
     display: flex;
     justify-content: space-around;
 }
 ._skills{
-    font-size: 50px;
+    font-size: 7vh;
     width: 15%;
 }
 ._skills_level{
-    width: 15%;
+    width: 35%;
 }
 ._skills2{
-    font-size: 50px;
-    width: 15%;
+    font-size: 7vh;
+    width: 35%;
 }
 ._skills_level2{
-    width: 13%;
+    width: 35%;
 }
 .skill_level2{
     font-size: 50px;
@@ -167,9 +172,9 @@ nav{
     position: absolute;
     width: 1px;
     height: 1px;
-    top: 700px;
+    top: 60%;
     left: 75%;
-    box-shadow: 0px 0px 400px 400px rgb(163, 24, 163) ;
+    box-shadow: 0px 0px 400px 400px rgb(163, 24, 163);
 }
 img{
     z-index: 2;
